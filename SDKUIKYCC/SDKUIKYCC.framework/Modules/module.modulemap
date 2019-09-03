@@ -1,0 +1,6 @@
+framework module SDKUIKYCC {
+  umbrella header "SDKUIKYCC.h"
+
+  export *
+  module * { export * }
+}
