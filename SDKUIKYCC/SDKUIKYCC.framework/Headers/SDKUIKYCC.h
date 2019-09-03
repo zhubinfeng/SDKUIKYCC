@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LTUIManager.h"
 
 //! Project version number for SDKUIKYCC.
 FOUNDATION_EXPORT double SDKUIKYCCVersionNumber;
