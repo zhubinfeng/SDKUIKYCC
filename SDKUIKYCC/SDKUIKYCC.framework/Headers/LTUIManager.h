@@ -20,7 +20,7 @@ typedef void (^loginUIUserBlock)(LTUser *loginUser);
 
 -(void)showLoginUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block showTourist:(BOOL)isTourist;
 
--(void)userLogoutWithUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block;
+-(void)userLogoutWithUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block showTourist:(BOOL)isTourist;
 @end
 
 NS_ASSUME_NONNULL_END
